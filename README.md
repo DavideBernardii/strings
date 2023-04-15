@@ -1,5 +1,7 @@
 # strings
-Programma C# per lo studio delle stringhe
+### Programma C# per lo studio delle stringhe
+
+Un programma  che manipola una stringa inserita dall'utente
 
 Non si possono utilizzare le seguenti classi/metodi di manipolazione delle stringhe tipiche del C#, C++, Python:
 
