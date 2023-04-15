@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="stringss.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="50"
+            Padding="30,0"
+            VerticalOptions="Center"
+            BackgroundColor="BlueViolet">
+            <Editor
+                x:Name="StringIn"
+                Text="Test Word"
+                FontSize="20"
+                HorizontalOptions="Center" 
+                HeightRequest="200"
+                WidthRequest="500"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                BackgroundColor="White"/>
+
+            <Label
+                Text="Convertitore di stringhe"
+                x:Name="StringOut"
+                FontSize="32"
+                HorizontalOptions="Center"
+                BackgroundColor="White"/>
+
+            <Button
+                x:Name="Pulsante"
+                Text="Cliccami"
+                Clicked="ButStr"
+                HorizontalOptions="Center"
+                BackgroundColor="White"
+                TextColor="Black"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
