@@ -1,4 +1,4 @@
-# strings
+# Strings
 ### Programma C# per lo studio delle stringhe
 
 Un programma  che manipola una stringa inserita dall'utente
